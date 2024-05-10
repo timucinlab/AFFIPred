@@ -1,4 +1,4 @@
-# AFFIPred: AF2 Structure-based Functional Impact Predictor
+## AFFIPred: AF2 Structure-based Functional Impact Predictor
 
 A novel structure-based pathogenicity classifier, AFFIPred, merges both sequence and AF2-based structural information. This combination tackles limitations of traditional structure-based classifiers while maintaining accuracy. 
 This repository contains jupyter-notebook files for training of three AFFIPred models and performance assessment results. 
