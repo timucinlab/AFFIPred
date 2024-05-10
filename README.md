@@ -16,3 +16,5 @@ Provide input and output files:
 ```affipred_pred variants.vcf -o affipred_results.csv```
 
 
+
+![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/097c3cbf-51df-4c4d-a1ef-87234a5b6d21)
