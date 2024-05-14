@@ -9,7 +9,7 @@ https://affipred.timucinlab.com/
 
 For installation:
 
-```pip install -i https://test.pypi.org/simple/ affipred```
+```pip install affipred```
 
 Provide input and output files:
 
