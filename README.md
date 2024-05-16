@@ -42,6 +42,3 @@ Pir, Mustafa Samet, & Timucin, Emel. (2024). AFFIPred: AlphaFold2 Structure-base
 	journal = {bioRxiv}
 }
 ```
-### License
-
-This project is licensed under the MIT License.
