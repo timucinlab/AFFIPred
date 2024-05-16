@@ -7,6 +7,8 @@ Visit for the predictions of all possible variations in the human proteome:
 
 https://affipred.timucinlab.com/
 
+### AFFIPred command line tool:
+
 For installation:
 
 ```pip install affipred```
@@ -15,5 +17,6 @@ Provide input and output files:
 
 ```affipred variants.vcf -o affipred_results.csv```
 
+For more details: https://github.com/mustafapir/AFFIPred-cli
 
 ![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/ace462e6-1af4-4800-9ec6-2105384f26bc)
