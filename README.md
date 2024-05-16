@@ -3,7 +3,7 @@
 
 This repository contains the Jupyter notebooks of a novel XGBoost-based pathogenicity classifier, AFFIPred, showcasing the implementation and assessment results for classification of the functional impact of missense variations. Hyperopt package was used for hyperparameter tuning with 200 evaluations. Three AFFIPred models were trained employing a nested cross-validation strategy with an outer loop of 10 folds and inner loop of 5 folds. AFFIPred represents a novel approach in pathogenicity classification by integrating both sequence and AF2-based structural information, overcoming the inherent limitations of conventional structure-based classifiers while preserving high accuracy.
 
-OC AUC-based performance comparison of AFFIPred against 40 other scores is depicted in the figure below, reflecting the comparable level of AFFIPred!s performance and superior coverage. The analysis was conducted on an unseen test set that does not contain any proteins present in AFFIPred's training data, ensuring the robustness of the evaluation.
+ROC AUC-based performance comparison of AFFIPred against 40 other scores is depicted in the figure below, reflecting the comparable level of AFFIPred!s performance and superior coverage. The analysis was conducted on an unseen test set that does not contain any proteins present in AFFIPred's training data, ensuring the robustness of the evaluation.
  
 ![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/ace462e6-1af4-4800-9ec6-2105384f26bc)
 
@@ -29,6 +29,7 @@ For more details: https://github.com/mustafapir/AFFIPred-cli
 
 If you find this repository useful in your research or work, please consider citing it:
 
+'''
 @article {Pir2024.05.13.593840,
 	author = {Pir, Mustafa Samet and Timucin, Emel},
 	title = {AFFIPred: AlphaFold2 Structure-based Functional Impact Prediction of Missense Variations},
@@ -40,7 +41,7 @@ If you find this repository useful in your research or work, please consider cit
 	eprint = {https://www.biorxiv.org/content/early/2024/05/15/2024.05.13.593840.full.pdf},
 	journal = {bioRxiv}
 }
-
+'''
 ### License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
