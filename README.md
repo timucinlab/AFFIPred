@@ -13,7 +13,7 @@ For installation:
 
 Provide input and output files:
 
-```affipred_pred variants.vcf -o affipred_results.csv```
+```affipred variants.vcf -o affipred_results.csv```
 
 
 ![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/ace462e6-1af4-4800-9ec6-2105384f26bc)
