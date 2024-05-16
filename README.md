@@ -1,13 +1,19 @@
 ## AFFIPred: AF2 Structure-based Functional Impact Predictor
+### Overview
 
-A novel structure-based pathogenicity classifier, AFFIPred, merges both sequence and AF2-based structural information. This combination tackles limitations of traditional structure-based classifiers while maintaining accuracy. 
-This repository contains jupyter-notebook files for training of three AFFIPred models and performance assessment results. 
+This repository contains the Jupyter notebooks of a novel XGBoost-based pathogenicity classifier, AFFIPred, showcasing the implementation and assessment results for classification of the functional impact of missense variations. Hyperopt package was used for hyperparameter tuning with 200 evaluations. Three AFFIPred models were trained employing a nested cross-validation strategy with an outer loop of 10 folds and inner loop of 5 folds. AFFIPred represents a novel approach in pathogenicity classification by integrating both sequence and AF2-based structural information, overcoming the inherent limitations of conventional structure-based classifiers while preserving high accuracy.
+
+OC AUC-based performance comparison of AFFIPred against 40 other scores is depicted in the figure below, reflecting the comparable level of AFFIPred!s performance and superior coverage. The analysis was conducted on an unseen test set that does not contain any proteins present in AFFIPred's training data, ensuring the robustness of the evaluation.
+ 
+![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/ace462e6-1af4-4800-9ec6-2105384f26bc)
+
+### Usage
 
 Visit for the predictions of all possible variations in the human proteome:
 
 https://affipred.timucinlab.com/
 
-### AFFIPred command line tool:
+#### AFFIPred command line tool:
 
 For installation:
 
@@ -19,4 +25,22 @@ Provide input and output files:
 
 For more details: https://github.com/mustafapir/AFFIPred-cli
 
-![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/ace462e6-1af4-4800-9ec6-2105384f26bc)
+### Citation
+
+If you find this repository useful in your research or work, please consider citing it:
+
+@article {Pir2024.05.13.593840,
+	author = {Pir, Mustafa Samet and Timucin, Emel},
+	title = {AFFIPred: AlphaFold2 Structure-based Functional Impact Prediction of Missense Variations},
+	elocation-id = {2024.05.13.593840},
+	year = {2024},
+	doi = {10.1101/2024.05.13.593840},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2024/05/15/2024.05.13.593840},
+	eprint = {https://www.biorxiv.org/content/early/2024/05/15/2024.05.13.593840.full.pdf},
+	journal = {bioRxiv}
+}
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
