@@ -27,9 +27,9 @@ For more details: https://github.com/mustafapir/AFFIPred-cli
 
 ### Citation
 
-If you find this repository useful in your research or work, please consider citing it:
+Pir, Mustafa Samet, & Timucin, Emel. (2024). AFFIPred: AlphaFold2 Structure-based Functional Impact Prediction of Missense Variations. bioRxiv, 2024.2005.2013.593840. doi: 10.1101/2024.05.13.593840
 
-```pbibtex
+```bibtex
 @article {Pir2024.05.13.593840,
 	author = {Pir, Mustafa Samet and Timucin, Emel},
 	title = {AFFIPred: AlphaFold2 Structure-based Functional Impact Prediction of Missense Variations},
