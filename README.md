@@ -29,7 +29,7 @@ For more details: https://github.com/mustafapir/AFFIPred-cli
 
 If you find this repository useful in your research or work, please consider citing it:
 
-'''
+```pbibtex
 @article {Pir2024.05.13.593840,
 	author = {Pir, Mustafa Samet and Timucin, Emel},
 	title = {AFFIPred: AlphaFold2 Structure-based Functional Impact Prediction of Missense Variations},
@@ -41,7 +41,7 @@ If you find this repository useful in your research or work, please consider cit
 	eprint = {https://www.biorxiv.org/content/early/2024/05/15/2024.05.13.593840.full.pdf},
 	journal = {bioRxiv}
 }
-'''
+```
 ### License
 
 This project is licensed under the MIT License.
