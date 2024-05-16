@@ -18,3 +18,6 @@ Provide input and output files:
 
 
 ![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/097c3cbf-51df-4c4d-a1ef-87234a5b6d21)
+
+
+![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/ace462e6-1af4-4800-9ec6-2105384f26bc)
