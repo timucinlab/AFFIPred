@@ -5,7 +5,8 @@ This repository contains the Jupyter notebooks of a novel XGBoost-based pathogen
 
 ROC AUC-based performance comparison of AFFIPred against 40 other scores is depicted in the figure below, reflecting the comparable level of AFFIPred!s performance and superior coverage. The analysis was conducted on an unseen test set that does not contain any proteins present in AFFIPred's training data, ensuring the robustness of the evaluation.
  
-![auc_coverage](https://github.com/timucinlab/AFFIPred/assets/58934249/ace462e6-1af4-4800-9ec6-2105384f26bc)
+![AUC_blind_auc_r1](https://github.com/user-attachments/assets/7f5de9ea-2921-48c7-ab3f-160dfba8aa88)
+
 
 ### Usage
 
