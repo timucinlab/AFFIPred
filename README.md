@@ -4,10 +4,6 @@
 This repository contains the Jupyter notebooks of a novel XGBoost-based pathogenicity classifier, AFFIPred, showcasing the implementation and assessment results for classification of the functional impact of missense variations. Hyperopt package was used for hyperparameter tuning with 200 evaluations. Three AFFIPred models were trained employing a nested cross-validation strategy with an outer loop of 10 folds and inner loop of 5 folds. AFFIPred represents a novel approach in pathogenicity classification by integrating both sequence and AF2-based structural information, overcoming the inherent limitations of conventional structure-based classifiers while preserving high accuracy.
 
 ROC AUC-based performance comparison of AFFIPred against 40 other scores is depicted in the figure below, reflecting the comparable level of AFFIPred!s performance and superior coverage. The analysis was conducted on an unseen test set that does not contain any proteins present in AFFIPred's training data, ensuring the robustness of the evaluation.
- 
-
-<img src="https://github.com/favicon.ico](https://github.com/user-attachments/assets/cf78e5b8-e001-41a5-85e8-7912fded9475.png" width="200">
-
 
 ### Usage
 
@@ -26,6 +22,8 @@ Provide input and output files:
 ```affipred variants.vcf -o affipred_results.csv```
 
 For more details: https://github.com/mustafapir/AFFIPred-cli
+
+<img src="https://github.com/timucinlab/AFFIPred/blob/d25b67f3b33f04f3c58f47f8a362b29394a1edcf/model/AUC_blind_auc_r1_github.png" width="600">
 
 ### Citation
 
